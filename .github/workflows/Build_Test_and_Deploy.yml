@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 20.x
           cache: 'npm'
-      - name: install dependencies	
-       	run: npm install
+      - name: install dependencies
+        run: npm install
 
-      - name: execute tests 
-      	run: npm test:unit
-	
+      - name: execute tests
+        run: npm test:unit
+
       - name: display SoftUni username
-	      run: echo 'peterstoyanov'
+        run: echo 'peterstoyanov'
